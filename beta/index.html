@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Beatrice's Bakery - Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato|Bree+Serif" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	 <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+
+	<script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="../banner1.png" />
+			</div>
+
+			<div class="burger" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+				<div class="container">
+					<ul>
+						<!-- Main navigation -->
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<br>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<br>
+						<li>
+							<a href="menu.html">Menu</a>
+						</li>
+						<br>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+						<br>
+						<li>
+							<a href="contacts.html">Contacts</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	</header>
+
+
+	<!--<section id="hero">-->
+	<!--	<img src="../banner1.png" alt=""/>-->
+	<!--	<h2>IMA</h2>-->
+	<!--	<span class="city">Africa</span>-->
+	<!--</section>-->
+
+
+	<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!--Indiactor(s)-->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!--  Slider(s)-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                   <img class="pic" src="../Images/cupcake_1.jpg" />
+                </div>
+                <div class="item">
+                    <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, IGN</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"Best Guide for Clash of Clan!"<br><span style="font-style:normal;">Chandler Bing, Actor, Michimai</span></h4>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+	
+	<section id="main-content">
+		<div class="container">
+			<h3>I'm a zebra.</h3>
+			<section class="column" id="home">
+				<img src="img/africa.png" alt="Africa">
+				<h4>My Home</h4>
+				<p>Wild zebras live in Africa. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer
+					posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
+				<a href="" class="btn">See my home</a>
+			</section>
+			<section class="column" id="diet">
+				<img src="images/grass.jpg" alt="Grass">
+				<h4>My Diet</h4>
+				<p>Zebras eat grass primarily. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer
+					posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
+				<a href="" class="btn">Grass is great</a>
+			</section>
+			<section class="column" id="pattern">
+				<img src="images/stripes.jpg" alt="Zebra Stripes">
+				<h4>Zebra Stripes</h4>
+				<p>Each Zebra has a unique stripe pattern. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit
+					aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
+				<a href="" class="btn">Check out my stripes</a>
+			</section>
+		</div>
+	</section>
+	<section id="social">
+		<div class="container">
+			<h3>I'm pretty social too. We should be friends.</h3>
+			<ul>
+				<li><img src="images/facebook.svg" alt="Facebook" /></li>
+				<li><img src="images/twitter.svg" alt="Twitter" /></li>
+				<li><img src="images/instagram.svg" alt="Instagram" /></li>
+				<li><img src="images/linkedin.svg" alt="LinkedIn" /></li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<p>&copy; 2017 Beatrice's Bakery</p>
+	</footer>
+
+</body>
+
+</html>
